@@ -1,12 +1,11 @@
 package stack.有效括号;
 
-import linkedlist.ListNode;
 
 import java.util.Stack;
 
 
 /**
- * leetcode 876
+ * leetcode 20
  *
  * @Author 喻可
  * @Date 2021/9/26 17:19
