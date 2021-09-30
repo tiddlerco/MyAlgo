@@ -67,6 +67,7 @@ public class Sorts {
             int value = a[i];
             int j = i - 1;
             // 查找要插入的位置并移动数据
+            //省略 for循环中的第一个参数  j=i-1
             for (; j >= 0; --j) {
                 if (a[j] > value) {
                     a[j + 1] = a[j];
