@@ -1,4 +1,4 @@
-package sort;
+package sort.sorts_11;
 
 import java.util.Arrays;
 
@@ -15,7 +15,7 @@ public class Test {
             // 提前退出标志位
             boolean flag = false;
             for (int j = 0; j < n - i - 1; ++j) {
-                if (a[j] < a[j + 1]) {
+                if (a[j] > a[j + 1]) {
                     int temp = a[j];
                     a[j] = a[j + 1];
                     a[j + 1] = temp;
