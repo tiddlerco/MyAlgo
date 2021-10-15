@@ -1,9 +1,17 @@
 package sort.sorts_12;
 
+import java.util.Arrays;
+
 /**
  * Created by wangzheng on 2018/10/16.
  */
 public class MergeSort {
+
+  public static void main(String[] args) {
+    int[] array = new int[]{3, 4, 6, 1, 2, 5, 7, 8};
+    mergeSort(array, 8);
+    System.out.println(Arrays.toString(array));
+  }
 
   // 归并排序算法, a是数组，n表示数组大小
   public static void mergeSort(int[] a, int n) {
